@@ -8,7 +8,7 @@ from array import *
 
 tommi =  array('i',[12,34,56,76,80,90,30])
 
-tommi.insert(1,9)
+tommi.insert(1,30)
 for x in tommi:
     print(x)
     
