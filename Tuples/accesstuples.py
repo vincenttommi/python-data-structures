@@ -18,3 +18,7 @@ print('destination[1]:',destination[1])
 
 print('ranks[5]:',ranks[5])
 
+
+apps = ['tiktok','instragram','x','whatsapp','linkedin']
+
+print('apps located at [2]',apps[2])
