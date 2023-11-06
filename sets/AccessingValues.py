@@ -8,7 +8,7 @@ we cannot  access individual values in a set but we can all access all the eleme
 
 
 
-
+When the above code is executed, it produces the following result −
 
 
 """
