@@ -17,10 +17,19 @@ it can be  presented using an array and  reshape  method  available  in  numpy
 
 from numpy import *
 
-vincente =  array(['Mon',18,20,22,17],['Tue',11,18,21,18],['Wen',20,30,40,50,60,70],['Thur',80,90,60],['fri',[1,2,3,4,5,],[
-    'Sat',[18,17,16,15,20,23],['Sat',23,24,25,26,27],['Sun',13,3,4,5,6]
-]])
+# Define a 2D array using lists for days and their respective values
+vincente = array([['Mon', 18, 20, 22, 17],
+                  ['Tue', 11, 18, 21, 18],
+                  ['Wen', 20, 30, 40, 50],
+                  ['Thur', 80, 90, 60],
+                  ['Fri', [1, 2, 3, 4, 5]],
+                  ['Sat', [18, 17, 16, 15, 20, 23]],
+                  ['Sun', [13, 3, 4, 5, 6]]])
 
-m = reshape(vincente(7,5))
+# Reshape the array into a 7x5 shape
+m = reshape(vincente, (7, 5))
+
+print(m)
+
 
 

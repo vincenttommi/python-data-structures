@@ -4,7 +4,7 @@ type
 
 import terms in arrays
 1 Element - each item stored in an array  is called an element
-2 index  - location of each  element in an array and  has a numerical index that used for identification
+2 index  -t
 
 
 *Basic Operation that can be  carried in an array
